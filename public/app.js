@@ -2,7 +2,7 @@ let traducciones = {};
 let idiomaActual = "es";
 let intervaloTimer;
 
-fetch('languages.json')
+fetch('translate.json')
     .then(respuesta => respuesta.json())
     .then(datos => {
         traducciones = datos;
