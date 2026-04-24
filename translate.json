@@ -1,0 +1,26 @@
+{
+  "es": {
+    "title": "Cuenta Regresiva: Fin de Semestre",
+    "startDateLabel": "Fecha de Inicio del Semestre:",
+    "endDateLabel": "Fecha de Fin del Semestre:",
+    "startButton": "¡Comenzar Timer!",
+    "days": "Días",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "freedom": "¡Eres libre! ¡Disfruta tus vacaciones!",
+    "errorDates": "Asegúrate de que la fecha de fin sea después de la de inicio."
+  },
+  "en": {
+    "title": "Countdown: End of Semester",
+    "startDateLabel": "Semester Start Date:",
+    "endDateLabel": "Semester End Date:",
+    "startButton": "Start Timer!",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "freedom": "You are free! Enjoy your break!",
+    "errorDates": "Make sure the end date is after the start date."
+  }
+}

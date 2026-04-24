@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="Un proyecto para checar cuanto falta para el final del semestre.">
+<meta name="keywords" content="end, semester, matematicas, proyecto, tiempo, faltante">
+<meta name="author" content="santiariasgonz">
+<meta name="robots" content="index, follow">
+<meta name="language" content="Spanish">
+<link rel="stylesheet" href="/public/styles.css">
+
+<title>Projecto de Matematicas Final De Semestre   </title>
+
+
+<html>
+<head>
+</head>
+<body>
+
+<body>
+    <div class="controles-idioma">
+        <button onclick="cambiarIdioma('es')">ES</button>
+        <button onclick="cambiarIdioma('en')">EN</button>
+    </div>
+
+    <div class="contenedor-principal">
+        <h1 data-i18n="title">Cargando...</h1>
+        
+        <div class="configuracion">
+            <label data-i18n="startDateLabel"></label>
+            <input type="datetime-local" id="fecha-inicio">
+            
+            <label data-i18n="endDateLabel"></label>
+            <input type="datetime-local" id="fecha-fin">
+            <br>
+            <button id="btn-iniciar" data-i18n="startButton"></button>
+        </div>
+
+        <div id="pantalla-timer" class="timer-display"></div>
+
+        <div class="barra-fondo">
+            <div id="mi-barra" class="barra-progreso"></div>
+        </div>
+        <p><span id="texto-porcentaje">0</span>%</p>
+    </div>
+    
+    <script src="app.js"></script>
+
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="santiariasgonz" data-description="Support me on Buy me a coffee!" data-message="Thank you for helping reach my dreams!" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+</body>
+
+
+
+</body>
+
+
+</html>
